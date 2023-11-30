@@ -1,0 +1,55 @@
+.about_us_main {
+  display: flex;
+}
+
+.about_us_main img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.cont_main_about {
+  margin: 100px auto 0 20px;
+}
+
+.cont_main_about h1 {
+  margin-bottom: 100px;
+  font-size: 50px;
+}
+
+.cont_main_about h2 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.cont_main_about h2 span {
+  color: #e35513;
+}
+
+.company_hist {
+  display: flex;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.hist_text {
+  margin-right: 50px;
+}
+
+.company_hist img {
+  width: 700px;
+  border-radius: 20px;
+}
+
+.company_hist h1 {
+  margin-bottom: 20px;
+}
+
+.company_hist p {
+  margin: 15px 0;
+}
+
+.company_hist span {
+  color: #e35513;
+  font-size: 20px;
+}

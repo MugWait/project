@@ -1,0 +1,99 @@
+.bg_signin {
+  height: 700px;
+  background-image: url(../../assets/zadnii-fon-nyu-york-1.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_signin {
+  width: 700px;
+  height: 500px;
+  background: #fff;
+  border-radius: 30px;
+  background-image: url(../../assets/road.png);
+  background-size: 350px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.form_signin h4 {
+  width: fit-content;
+  color: red;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0px 24px;
+  background: #000;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.form_login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.links_sing_up_in {
+  margin: 35px 0px 40px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #e35513;
+}
+
+.links_sing_up_in span {
+  color: #000;
+}
+
+.bg_signin input {
+  width: 650px;
+  height: 40px;
+  margin: 24px 22px;
+  border-radius: 10px;
+  background-color: lightgray;
+  border: none;
+  font-size: 20px;
+}
+
+.bg_signin button {
+  margin: 20px 225px;
+  padding: 10px 75px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  border-radius: 10px;
+  background: #e35513;
+  color: #fff;
+  border: none;
+  border: 1px solid #e35513;
+}
+
+.bg_signin button:hover {
+  background: #0b0c11;
+  cursor: pointer;
+}
+.social_media {
+  width: 420px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.social_media h3 {
+  color: #000;
+}
+.social_media img {
+  width: 50px;
+  height: auto;
+}
+.social_media img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.form_signin input {
+  padding-left: 10px;
+}

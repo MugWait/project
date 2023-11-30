@@ -1,0 +1,138 @@
+.tracking-header {
+  margin: 30px 0;
+}
+
+.tracking_main_h1 h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+.tracking_main_h1 span {
+  color: #e35513;
+}
+.tracking_btn:hover {
+  background: #000;
+  border: 1px solid #e35513;
+  color: #fff;
+}
+
+.tracking_sml_link {
+  margin: 50px 0;
+}
+
+.chips-holder {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+.chips-holder a {
+  color: #fff;
+}
+
+.chips-holder a:hover {
+  text-decoration: underline;
+}
+
+.chip-set button {
+  margin-right: 10px;
+  padding: 9px;
+  font-size: 16px;
+  border-radius: 50%;
+  position: relative;
+  right: 20px;
+}
+
+.ripple-upgraded {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 7px;
+}
+
+.active_track_btn {
+  background: #e35513;
+  color: #fff;
+}
+
+.track_btn {
+  background: #0b0c11;
+  color: #fff;
+  border: 1px solid #e35513;
+}
+
+.ripple-upgraded input {
+  min-width: 70%;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.ripple-upgraded button {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+  right: 15px;
+  background: #e35513;
+}
+
+.head_track-bg {
+  background: #0b0c11;
+  padding: 20px 0;
+}
+
+.app_phone img {
+  width: 400px;
+}
+
+.search_news {
+  display: flex;
+  margin: 25px 0;
+}
+
+.in_trend {
+  width: 450px;
+}
+
+.search_history {
+  width: 550px;
+}
+
+.trend_block {
+  /*    width: 410px;*/
+  height: 135px;
+  background: #0b0c11;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 5px 30px #e35513;
+  margin: 50px 15px;
+}
+
+.trend_name_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trend_block hr {
+  margin: 5px 0;
+  border: 1px solid #fff;
+}
+
+.trend_block img {
+  width: 100px;
+  /*    position: relative*/
+}
+
+.search_history {
+  display: flex;
+  flex-direction: column;
+}
+
+.search_history .trend_block {
+  margin: 50px 0 0 25px;
+}

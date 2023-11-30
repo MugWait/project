@@ -1,0 +1,17 @@
+.main_btn {
+  width: fit-content;
+  height: fit-content;
+  background: #e35513;
+  padding: 20px 30px;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  margin: 8px 0;
+  border: 1px solid #e35513;
+}
+.main_btn:hover {
+  background: #0b0c11;
+  cursor: pointer;
+}

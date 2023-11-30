@@ -1,0 +1,172 @@
+.stock-header {
+  display: flex;
+}
+
+.aside-wrapper {
+  padding: 30px;
+  margin: 10px 10px 10px 0;
+  background: #0b0c11;
+  border-radius: 10px;
+  border: 1px solid #e35513;
+  height: fit-content;
+}
+
+.aside-wrapper select {
+  width: 230px;
+  height: 35px;
+}
+
+.filter-clean {
+  text-align: end;
+}
+
+.margin_filter {
+  margin: 15px 0;
+}
+
+.price-group {
+  display: flex;
+  margin: 10px 0;
+}
+
+.price-group input {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.year_filter select {
+  margin: 5px 0;
+}
+
+.search-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-button button {
+  padding: 0px 70px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  border-radius: 10px;
+  background: #e35513;
+  color: #fff;
+  border: 1px solid #e35513;
+}
+
+.search-button button:hover {
+  background: #0b0c11;
+  cursor: pointer;
+}
+
+.layout_stock {
+  height: 100px;
+  width: 1090px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sorting-filter select {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.box_post_stock {
+  width: 1080px;
+  height: 300px;
+  margin: 10px;
+  background: #0b0c11;
+  border-radius: 10px;
+  border: 1px solid #e35513;
+  display: flex;
+  align-items: center;
+}
+
+.general-info h1 {
+  margin-left: 20px;
+}
+
+.stock_img_main {
+  width: 330px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0 15px;
+}
+
+.car_stock_info {
+  display: flex;
+}
+
+.car_stock_info img {
+  height: 37px;
+  height: 37px;
+  margin: 0 10px;
+}
+
+.range,
+.fuel,
+.engine,
+.year,
+.transmission,
+.wheel {
+  margin: 30px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.third-column .price {
+  margin: 20px 10px 0 -10px;
+}
+
+.third-column .price span {
+  font-size: 28px;
+  color: #e35513;
+  font-weight: 700;
+}
+
+.btn_stock_conf {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_stock {
+  margin: 10px;
+  padding: 10px 10px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  border-radius: 10px;
+  background: #e35513;
+  color: #fff;
+  border: 1px solid #e35513;
+}
+
+.btn_stock:hover {
+  background: #0b0c11;
+  cursor: pointer;
+}
+
+.btn_stock_other {
+  margin: 10px;
+  padding: 10px 10px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #e35513;
+}
+
+.btn_stock_other:hover {
+  background: #fff;
+  color: #000;
+}
+
+.filter-action-row-span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

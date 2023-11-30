@@ -1,0 +1,112 @@
+.bg_signup {
+  height: 700px;
+  background-image: url(../../assets/zadnii-fon-nyu-york-1.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_signup {
+  width: 700px;
+  height: auto;
+  background: #fff;
+  border-radius: 30px;
+  background-image: url(../../assets/road.png);
+  background-size: 350px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.form_signup h4 {
+  width: fit-content;
+  color: red;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0px 24px;
+  background: #000;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.form_login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.links_sing_up_in {
+  margin: 35px 0px 40px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #e35513;
+}
+
+.links_sing_up_in span {
+  color: #000;
+}
+
+.bg_signup input {
+  width: 650px;
+  height: 40px;
+  margin: 15px 22px;
+  border-radius: 10px;
+  background-color: lightgray;
+  border: none;
+  font-size: 20px;
+}
+
+form .form_signup input:nth-child(-n + 3) {
+  width: 300px;
+}
+
+.confirm {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.confirm input {
+  width: 20px !important;
+  margin: 0 22px;
+}
+.confirm {
+  color: #000;
+}
+.confirm span {
+  color: #e35513;
+  padding: 5px;
+  border-radius: 10px;
+  background: #000;
+  margin: 0 10px;
+  /* box-shadow: 10px 5px 50px #fff; */
+}
+.confirm span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bg_signup button {
+  margin: 33px 170px;
+  padding: 10px 75px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  border-radius: 10px;
+  background: #e35513;
+  color: #fff;
+  border: none;
+  border: 1px solid #e35513;
+}
+
+.bg_signup button:hover {
+  background: #0b0c11;
+  cursor: pointer;
+}
+
+.form_signup input {
+  padding-left: 10px;
+}

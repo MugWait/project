@@ -1,0 +1,226 @@
+.container {
+  margin: 0 3%;
+}
+
+.user_info_div {
+  background-image: url(../../assets/imgonline.jpg);
+  width: auto;
+  height: 100vh;
+}
+
+.user_info_prof {
+  height: 100vh;
+  align-items: center;
+  /* position: relative; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.personal_info {
+  width: 930px;
+  height: 650px;
+  background-color: white;
+  border-radius: 30px;
+  opacity: 0.9;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 0;
+}
+
+.user_s_car {
+  width: 460px;
+  height: 723px;
+  background-color: var(--bg_content);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: auto 0 auto 45px;
+  justify-content: center;
+  align-items: center;
+}
+.user_s_car h2 {
+  margin: 10px 0 20px 0;
+}
+
+.btn_add_car {
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.user_name {
+  text-align: center;
+  margin: 50px 50px 20px 50px;
+}
+
+.contact_user_info {
+  height: 200px;
+  width: 320px;
+  background: #000;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 35px;
+}
+
+.contact_user_info img {
+  /*    margin: auto;*/
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 125px;
+  left: 213px;
+}
+
+.form_user-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.user_date h4 {
+  margin: 20px 0 10px 0;
+}
+
+.user_date input {
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  margin: 0 8px;
+}
+
+.contact_user_info button {
+  padding: 10px 70px;
+  margin: 45px 34px;
+}
+
+.doc_user {
+  display: block;
+  width: 420px;
+  height: 300px;
+  background: #000;
+  border-radius: 20px;
+  padding: 5px 10px;
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+}
+
+.card_user {
+  width: 420px;
+  height: 250px;
+  background: #000;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-content: center; */
+}
+
+.card_user h2 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.card_user input {
+  width: 230px;
+  height: 40px;
+  margin: 40px 0 20px 0;
+  font-size: 20px;
+  padding: 0 0 0 10px;
+}
+
+.card_user button {
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  border-radius: 10px;
+  background: #e35513;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.search_doc {
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.search_doc input {
+  height: 25px;
+  margin: 15px;
+}
+
+.all_doc {
+  width: 400px;
+  height: 230px;
+  border-top-right-radius: 30px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.doc_box {
+  width: auto;
+  /* height: 50px; */
+  background: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  cursor: pointer;
+}
+.doc_box:hover {
+  background-color: #0b0c11;
+  border: 1px solid #e35513;
+  color: #fff;
+}
+
+.user_cars_scroll {
+  height: 500px;
+  width: 450px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.users_cars_post {
+  width: 410px;
+  height: 300px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.users_cars_post img {
+  width: 380px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.users_cars_post button {
+  font-size: 18px;
+  padding: 10px 25px;
+  margin: 10px;
+}

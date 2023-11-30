@@ -1,0 +1,217 @@
+.post-header {
+  width: 700px;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  background: #0b0c11;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.margin_post_car {
+  margin: 20px 0;
+}
+
+.h_post {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.add_post_img {
+  width: 500px;
+  height: 200px;
+  background: #e35513;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add_post_img h3 {
+  font-size: 40px;
+  color: #000;
+}
+
+.layout_post textarea {
+  min-width: 500px;
+  min-height: 200px;
+  max-width: 500px;
+  max-height: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.layout_post input,
+.layout_post select,
+.layout_post option {
+  min-width: 500px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.layout_post option {
+  min-width: 500px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.btn_post_car {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_post_car button {
+  margin: 30px 0;
+  padding: 10px 55px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  border-radius: 10px;
+  background: #e35513;
+  color: #fff;
+  border: 1px solid #e35513;
+}
+
+.btn_post_car button:hover {
+  background: #0b0c11;
+  cursor: pointer;
+}
+
+/* .card_drop {
+  padding: 10px;
+  box-shadow: 0 0 5px #ffdfdf;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card_drop,
+.top_drop {
+  text-align: center;
+}
+
+.top_drop p {
+  font-weight: bold;
+  color: beige;
+}
+.card_drop button {
+  outline: none;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 8px 13px;
+  width: 100%;
+  background: blue;
+}
+.card_drop .dreg-area {
+  height: 150px;
+  border-radius: 5px;
+  border: 2px dashed blue;
+  color: blue;
+  background: #f4f3f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.card_drop .dreg-area .visible {
+  font-size: 18px;
+}
+
+.card_drop select {
+  color: #5256ad;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.card_drop select:hover {
+  opacity: 0.6;
+}
+.card_drop .container_drop {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-height: 200px;
+  overflow-y: 10px;
+}
+.card_drop .container_drop .image_drop {
+  width: 75px;
+  margin-right: 5px;
+  height: 75px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.card_drop .container_drop .image_drop img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.card_drop .container_drop .image_drop span {
+  position: absolute;
+  top: -2px;
+  right: 9px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.card_drop input,
+.card_drop .dreg-area .on-drop,
+.card_drop .dreg-area.dregover .visible {
+  display: none;
+}
+
+.delete {
+  z-index: 999;
+  color: #0086fe;
+} */
+
+.input-file-container {
+  position: relative;
+  width: 225px;
+  width: 225px;
+  margin: 0 auto;
+  text-align: center;
+}
+.input-file-trigger {
+  display: block;
+  padding: 14px 45px;
+  background: #39d2b4;
+  color: #fff;
+  font-size: 1em;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.input-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.input-file:hover + .input-file-trigger,
+.input-file:focus + .input-file-trigger,
+.input-file-trigger:hover,
+.input-file-trigger:focus {
+  background: #34495e;
+  color: #39d2b4;
+}
+
+.file-return {
+  margin: 0;
+}
+*/ .file-return:not(:empty) {
+  margin: 1em 0;
+}

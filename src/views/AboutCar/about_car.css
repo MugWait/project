@@ -1,0 +1,161 @@
+.description_car {
+  display: flex;
+  margin-top: 20px;
+}
+
+.photos_car img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.photos_car img:nth-child(1) {
+  height: 470px;
+  width: 700px;
+}
+
+.text_car {
+  margin: 0 0 0 70px;
+  width: 700px;
+}
+
+.text_car h1 {
+  margin-bottom: 20px;
+}
+
+.text_car h2 {
+  color: #e35513;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text_car ul {
+  display: flex;
+  height: 150px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.text_car li {
+  margin: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_car img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.text_car p {
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 18px;
+  width: 600px;
+  height: 210px;
+  margin-bottom: 30px;
+}
+
+.text_car button {
+  padding: 10px 75px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  border-radius: 10px;
+  background: #e35513;
+  color: #fff;
+  border: none;
+}
+
+.text_car button:hover {
+  background: #0b0c11;
+  border: 1px solid #e35513;
+  cursor: pointer;
+}
+
+.car_characteristics {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  background-color: #0b0c11;
+  margin: 30px auto;
+}
+
+.technical_passport {
+  padding-right: 100px;
+  border-right: 1px solid #fff;
+  width: 570px;
+}
+
+.complete_set {
+  width: 570px;
+}
+
+.complete_set h2,
+.technical_passport h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info_passport {
+  display: flex;
+}
+
+.info_passport_standart li {
+  font-weight: bold;
+  margin: 9.5px;
+}
+
+.info_passport_bd ul {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_passport_bd li {
+  width: fit-content;
+  text-align: center;
+  margin: 5px;
+  padding: 0 10px;
+  background-color: #e35513;
+  color: #000;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.complete_set ul {
+  margin-left: 25px;
+}
+
+.complete_set li {
+  height: 120px;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.complete_set span {
+  width: fit-content;
+  text-align: center;
+  margin: 5px;
+  padding: 0 10px;
+  background-color: #e35513;
+  color: #000;
+  border-radius: 10px;
+  font-weight: bold;
+  /*    line-height: 30px;*/
+}
+
+.about_car_test_info {
+  width: 500px;
+  margin: 10px 0;
+}

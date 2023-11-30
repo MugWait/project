@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+:root {
+  --main_bg_color: #000000;
+  --bg_content: #0b0c11;
+  --btn_bg_color: #e35513;
+  --text_color: #fff;
+  --footer_icon: #ee7237;
+}
+
+body {
+  background: var(--main_bg_color);
+  color: white;
+}
+
+.container {
+  margin: 0 3%;
+  /*    display: flex;*/
+}
+
+.default-link {
+  color: var(--text_color);
+}
+.default-link:hover {
+  color: var(--btn_bg_color);
+}
+.active-link {
+  color: var(--btn_bg_color);
+}
+
+.default-link_log {
+  color: var(--main_bg_color);
+}
+.default-link_log:hover {
+  text-decoration: underline;
+}
